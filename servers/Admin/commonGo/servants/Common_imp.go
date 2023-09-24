@@ -31,3 +31,6 @@ func (imp *CommonImp) Sub(ctx context.Context, a int32, b int32, c *int32) (int3
 	//...
 	return 0, nil
 }
+func (imp *CommonImp) Hello(tarsCtx context.Context, no int32, name string) (ret string, err error) {
+	return name, nil
+}

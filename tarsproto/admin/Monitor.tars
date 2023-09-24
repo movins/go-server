@@ -1,32 +1,7 @@
 module adminApp
 {
-	interface Druid
+	interface Captcha
 	{
-	    int Add(int a,int b,out int c); // Some example function
-	    int Sub(int a,int b,out int c); // Some example function
-	};
-
-	interface Server
-	{
-	    int Add(int a,int b,out int c); // Some example function
-	    int Sub(int a,int b,out int c); // Some example function
-	};
-
-	interface SysLogininfor
-	{
-	    int Add(int a,int b,out int c); // Some example function
-	    int Sub(int a,int b,out int c); // Some example function
-	};
-
-	interface SysOperlog
-	{
-	    int Add(int a,int b,out int c); // Some example function
-	    int Sub(int a,int b,out int c); // Some example function
-	};
-
-	interface SysUserOnline
-	{
-	    int Add(int a,int b,out int c); // Some example function
-	    int Sub(int a,int b,out int c); // Some example function
+		string Image(string type);
 	};
 };
